@@ -35,7 +35,7 @@ export default function Experience() {
             </div>
         </div>
 
-        <div id="drawer-navigation" className="fixed top-0 left-0 z-40 w-full h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white" tabIndex="-1" aria-labelledby="drawer-navigation-label">
+        <div id="drawer-navigation" className="fixed top-0 left-0 z-40 w-full h-full p-4 overflow-y-auto transition-transform -translate-x-full bg-white" tabIndex="-1" aria-labelledby="drawer-navigation-label">
             <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation" className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 end-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" 
                 onClick={()=>{showDrawer(false)}}
             >

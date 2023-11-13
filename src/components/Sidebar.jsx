@@ -1,6 +1,6 @@
 import { useEffect, useState} from 'react'
 import { useNavigate } from 'react-router'
-import DownloadCV from '../assets/DownloadCV.svg'
+import Krish_Patel_Resume from '../assets/Resume/Krish_Patel_Resume.pdf'
 
 export default function Sidebar({currentTab}) {
 
@@ -39,7 +39,7 @@ export default function Sidebar({currentTab}) {
             </button>
           )
         }
-        <a href={DownloadCV} download="Krish_Patel_Resume">
+        <a href={Krish_Patel_Resume} download="Krish_Patel_Resume">
           <button className='w-40 h-10'>Download CV</button>          
         </a>
 
