@@ -10,13 +10,23 @@ import MongoDB from '../assets/MongoDB.svg'
 import Firebase from '../assets/Firebase.svg'
 import Multer from '../assets/Multer.svg'
 import Git from '../assets/Git.svg'
-import Github from '../assets/Github.svg'
+// import Github from '../assets/Github.svg'
 import HTML from '../assets/HTML.svg'
 import CSS from '../assets/CSS.svg'
 
 
-import GithubLink from '../assets/GithubLink.svg'
-import Website from '../assets/Website.svg'
+import Github from '../assets/GithubLink.svg'
+// import Website from '../assets/Website.svg'
+import Website from '../assets/GoArrowWhite.svg'
+
+
+// Project Images
+import Calm_sounds from '../assets/Projects/calm-sounds.png'
+import Snkr_street from '../assets/Projects/snkr-street.png'
+import Calendar from '../assets/Projects/calendar.png'
+import Coinverse from '../assets/Projects/coinverse.png'
+import Gym_mate from '../assets/Projects/gym-mate.png'
+import Car_rental from '../assets/Projects/car-rental.png'
 
 export const ProjectsWebDevelopment = [
     {
@@ -44,7 +54,9 @@ export const ProjectsWebDevelopment = [
                 title : "CODE",
                 link : "https://github.com/krishpatel023/calm-sounds"
             }
-        ]
+        ],
+        Category : 'dynamic',
+        PreviewImg : Calm_sounds
     },
     {
         ProjectName : "SNKR STREET - E-COMMERCE APPLICATION",
@@ -92,10 +104,12 @@ export const ProjectsWebDevelopment = [
                 title : "BACKEND CODE",
                 link : "https://github.com/krishpatel023/snkr-street-backend"
             }
-        ]
+        ],
+        Category : 'dynamic',
+        PreviewImg : Snkr_street
     },
     {
-        ProjectName : "CALENDER APP",
+        ProjectName : "CALENDAR APP",
         ProjectType : "Frontend",
         TechnologiesUsed : [
             {
@@ -123,7 +137,9 @@ export const ProjectsWebDevelopment = [
                 title : "CODE",
                 link : "https://github.com/krishpatel023/calender-app"
             }
-        ]
+        ],
+        Category : 'dynamic',
+        PreviewImg : Calendar
     },
     {
         ProjectName : "COINVERSE",
@@ -146,7 +162,67 @@ export const ProjectsWebDevelopment = [
                 title : "CODE",
                 link : "https://github.com/krishpatel023/coin-verse"
             }
-        ]
+        ],
+        Category : 'static',
+        PreviewImg : Coinverse
+    },
+    {
+        ProjectName : "Gym Mate",
+        ProjectType : "Frontend",
+        TechnologiesUsed : [
+            {
+                logo : ReactLogo,
+                title : 'React'
+            },
+            {
+                logo : Tailwind,
+                title : 'Tailwind CSS'
+            },
+            {
+                logo : Firebase,
+                title : 'Firebase'
+            },
+        ],
+        Description : "Gymate provides a space for people to improve their physical fitness and overall health through regular exercise and physical activity. It has been built by accurately executing a figma design to code.",
+        Links : [
+            {
+                img : Website,
+                title : "WEBSITE",
+                link : "https://gym-mate-seven.vercel.app/"
+            },
+            {
+                img : Github,
+                title : "CODE",
+                link : "https://github.com/krishpatel023/gym-mate"
+            }
+        ],
+        Category : 'static',
+        PreviewImg : Gym_mate
+    },
+    {
+        ProjectName : "Car Rental",
+        ProjectType : "Frontend",
+        TechnologiesUsed : [
+            {
+                logo : ReactLogo,
+                title : 'React'
+            },
+        ],
+        Description : "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an easy-to-use interface for searching, comparing, and reserving cars from a wide selection of vehicles that vary in make, model, size, and price.",
+        Links : [
+            {
+                img : Website,
+                title : "WEBSITE",
+                link : "https://car-rental-five-mu.vercel.app/"
+            },
+            {
+                img : Github,
+                title : "CODE",
+                link : "https://github.com/krishpatel023/car-rental"
+            }
+        ],
+        Category : 'static',
+        PreviewImg : Car_rental
     }
 ]
 
